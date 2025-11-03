@@ -24,7 +24,7 @@ The project is organized into the following directories:
 
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/your-username/pyAno.git
+    git clone https://github.com/zerixmax/pyAno
     ```
 2.  Navigate to the project directory:
     ```bash
