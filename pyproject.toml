@@ -1,0 +1,13 @@
+[tool.pyright]
+# Postavljamo korijen projekta
+executionEnvironment = [
+  { root = "." } 
+]
+# Dodajemo mape 'core', 'infrastructure', 'services' i 'utils' kao mjesta za pretraživanje.
+# Ovo Pylanceu govori: "Traži import u tim mapama!"
+extraPaths = [
+    "core",
+    "infrastructure",
+    "services",
+    "utils"
+]
